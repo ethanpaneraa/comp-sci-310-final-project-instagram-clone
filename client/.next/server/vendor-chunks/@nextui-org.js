@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "vendor-chunks/@nextui-org";
+exports.ids = ["vendor-chunks/@nextui-org"];
+exports.modules = {
+
+/***/ "(ssr)/./node_modules/@nextui-org/system/dist/chunk-HRMF5D3P.mjs":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@nextui-org/system/dist/chunk-HRMF5D3P.mjs ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   NextUIProvider: () => (/* binding */ NextUIProvider)\n/* harmony export */ });\n/* harmony import */ var _react_aria_i18n__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @react-aria/i18n */ \"(ssr)/./node_modules/@react-aria/i18n/dist/real-module.mjs\");\n/* harmony import */ var _react_aria_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @react-aria/utils */ \"(ssr)/./node_modules/@react-aria/utils/dist/import.mjs\");\n/* harmony import */ var _react_aria_overlays__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @react-aria/overlays */ \"(ssr)/./node_modules/@react-aria/overlays/dist/import.mjs\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-runtime.js\");\n// src/provider.tsx\n\n\n\n\nvar NextUIProvider = ({ children, locale = \"en-US\", navigate, ...otherProps })=>{\n    let contents = children;\n    if (navigate) {\n        contents = /* @__PURE__ */ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_react_aria_utils__WEBPACK_IMPORTED_MODULE_1__.RouterProvider, {\n            navigate,\n            children: contents\n        });\n    }\n    return /* @__PURE__ */ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_react_aria_i18n__WEBPACK_IMPORTED_MODULE_2__.I18nProvider, {\n        locale,\n        children: /* @__PURE__ */ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_react_aria_overlays__WEBPACK_IMPORTED_MODULE_3__.OverlayProvider, {\n            ...otherProps,\n            children: contents\n        })\n    });\n};\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvQG5leHR1aS1vcmcvc3lzdGVtL2Rpc3QvY2h1bmstSFJNRjVEM1AubWpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUEsbUJBQW1CO0FBQzZCO0FBQ0c7QUFDSTtBQUNmO0FBQ3hDLElBQUlJLGlCQUFpQixDQUFDLEVBQ3BCQyxRQUFRLEVBQ1JDLFNBQVMsT0FBTyxFQUNoQkMsUUFBUSxFQUNSLEdBQUdDLFlBQ0o7SUFDQyxJQUFJQyxXQUFXSjtJQUNmLElBQUlFLFVBQVU7UUFDWkUsV0FBVyxhQUFhLEdBQUdOLHNEQUFHQSxDQUFDRiw2REFBY0EsRUFBRTtZQUFFTTtZQUFVRixVQUFVSTtRQUFTO0lBQ2hGO0lBQ0EsT0FBTyxhQUFhLEdBQUdOLHNEQUFHQSxDQUFDSCwwREFBWUEsRUFBRTtRQUFFTTtRQUFRRCxVQUFVLGFBQWEsR0FBR0Ysc0RBQUdBLENBQUNELGlFQUFlQSxFQUFFO1lBQUUsR0FBR00sVUFBVTtZQUFFSCxVQUFVSTtRQUFTO0lBQUc7QUFDM0k7QUFJRSIsInNvdXJjZXMiOlsid2VicGFjazovL2NsaWVudC8uL25vZGVfbW9kdWxlcy9AbmV4dHVpLW9yZy9zeXN0ZW0vZGlzdC9jaHVuay1IUk1GNUQzUC5tanM/N2E0NCJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBzcmMvcHJvdmlkZXIudHN4XG5pbXBvcnQgeyBJMThuUHJvdmlkZXIgfSBmcm9tIFwiQHJlYWN0LWFyaWEvaTE4blwiO1xuaW1wb3J0IHsgUm91dGVyUHJvdmlkZXIgfSBmcm9tIFwiQHJlYWN0LWFyaWEvdXRpbHNcIjtcbmltcG9ydCB7IE92ZXJsYXlQcm92aWRlciB9IGZyb20gXCJAcmVhY3QtYXJpYS9vdmVybGF5c1wiO1xuaW1wb3J0IHsganN4IH0gZnJvbSBcInJlYWN0L2pzeC1ydW50aW1lXCI7XG52YXIgTmV4dFVJUHJvdmlkZXIgPSAoe1xuICBjaGlsZHJlbixcbiAgbG9jYWxlID0gXCJlbi1VU1wiLFxuICBuYXZpZ2F0ZSxcbiAgLi4ub3RoZXJQcm9wc1xufSkgPT4ge1xuICBsZXQgY29udGVudHMgPSBjaGlsZHJlbjtcbiAgaWYgKG5hdmlnYXRlKSB7XG4gICAgY29udGVudHMgPSAvKiBAX19QVVJFX18gKi8ganN4KFJvdXRlclByb3ZpZGVyLCB7IG5hdmlnYXRlLCBjaGlsZHJlbjogY29udGVudHMgfSk7XG4gIH1cbiAgcmV0dXJuIC8qIEBfX1BVUkVfXyAqLyBqc3goSTE4blByb3ZpZGVyLCB7IGxvY2FsZSwgY2hpbGRyZW46IC8qIEBfX1BVUkVfXyAqLyBqc3goT3ZlcmxheVByb3ZpZGVyLCB7IC4uLm90aGVyUHJvcHMsIGNoaWxkcmVuOiBjb250ZW50cyB9KSB9KTtcbn07XG5cbmV4cG9ydCB7XG4gIE5leHRVSVByb3ZpZGVyXG59O1xuIl0sIm5hbWVzIjpbIkkxOG5Qcm92aWRlciIsIlJvdXRlclByb3ZpZGVyIiwiT3ZlcmxheVByb3ZpZGVyIiwianN4IiwiTmV4dFVJUHJvdmlkZXIiLCJjaGlsZHJlbiIsImxvY2FsZSIsIm5hdmlnYXRlIiwib3RoZXJQcm9wcyIsImNvbnRlbnRzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/@nextui-org/system/dist/chunk-HRMF5D3P.mjs\n");
+
+/***/ })
+
+};
+;
